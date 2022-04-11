@@ -4,26 +4,26 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 ##### Bloco 1: Introdução - Unix & Shell
-- [ ] 1-3: _Fundamentos do Desenvolvimento Web_
-- [ ] 1-3: _Introdução - Unix & Shell_
-- [ ] 1-3: _Unix & Shell- Part 1_
-- [ ] 1-4: _Unix & Shell- Part 2_
+- [x] 1-3: _Fundamentos do Desenvolvimento Web_
+- [x] 1-3: _Introdução - Unix & Shell_
+- [x] 1-3: _Unix & Shell- Part 1_
+- [x] 1-4: _Unix & Shell- Part 2_
 ##### Bloco 2: Git & GitHub e Internet
-- [ ] 2-1: _Git & GitHub - O que é e para que serve_
-- [ ] 2-2: _Git & GitHub - Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+- [x] 2-1: _Git & GitHub - O que é e para que serve_
+- [x] 2-2: _Git & GitHub - Entendendo os comandos_
+- [x] 2-3: _Internet - Entendendo como ela funciona_
 ##### Bloco 3: Introdução - HTML & CSS
-- [ ] 3-1: _Introdução - HTML & CSS_
-- [ ] 3-1: _HTML & CSS - Estruturas de página_
-- [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML Semântico_
-- [ ] 3-5: _[Projeto - Lessons Learned]()_
+- [x] 3-1: _Introdução - HTML & CSS_
+- [x] 3-1: _HTML & CSS - Estruturas de página_
+- [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [x] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [x] 3-4: _HTML Semântico_
+- [x] 3-5: _[Projeto - Lessons Learned]()_
 ##### Bloco 4: Introdução - JavaScript e Lógica de Programação
-- [ ] 4-1: _Introdução - JavaScript_
-- [ ] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [x] 4-1: _Introdução - JavaScript_
+- [x] 4-1: _JavaScript - Primeiros passos_
+- [x] 4-2: _JavaScript - Array e loop For_
+- [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
 - [ ] 4-5: _[Projeto - Playground Functions]()_
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
