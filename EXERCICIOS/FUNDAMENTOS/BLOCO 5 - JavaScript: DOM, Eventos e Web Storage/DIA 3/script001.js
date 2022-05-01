@@ -173,6 +173,7 @@ function adicionaTexto() {
   } else {
     legendColor(tarefacor);
     tarefaPerson(stringTarefa);
+    textoInput.value = '';
   }
 }
 /*
@@ -274,5 +275,4 @@ function entradaTextoEnter(texto) {
   if (x === 'Enter') {
     adicionaTexto();
   };
-
 }
