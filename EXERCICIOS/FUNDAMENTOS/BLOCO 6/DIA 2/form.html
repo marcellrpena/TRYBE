@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Concurso TrybeTrip</h1>
+    <p>Concorra a uma viagem totalmente paga e com várias opções de destino.</p>
+  </header>
+  <form action="">
+    <fieldset>
+      <div id="identificação">
+        <div>
+          <label for="nome">Nome: </label>
+          <input type="text" minlength="10" maxlength="40" name="identify" id="nome">
+        </div>
+        <div>
+          <label for="email">Email: </label>
+          <input type="text" minlength="10" maxlength="50" name="identify" id="email">
+        </div>
+      </div>
+      <div id="destinoPref">
+        <input type="radio" name="destino" id="cidade" checked>
+        <label for="cidade">Cidade</label>
+        <input type="radio" name="destino" id="campo">
+        <label for="campo">Campo</label>
+        <input type="radio" name="destino" id="praia">
+        <label for="praia">Praia</label>
+        <input type="radio" name="destino" id="montanha">
+        <label for="montanha">Montanha</label>
+      </div>
+      <div id="motivoWin-container">
+        <div>
+          <label for="motivo">Espaço para digitar a resposta:</label>
+        </div>
+        <textarea name="motivo" id="motivoWin" cols="49" rows="10" maxlength="500"></textarea>
+      </div>
+      <div id="melhorData">
+        <label for="date">Data: <input type="date" name="data" id="date"></label>
+      </div>
+      <div id="acordingSection">
+        <div>
+          <input type="checkbox" name="acordding" id="oportunidades">
+          <label for="oportunidades">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        </div>
+        <input type="checkbox" name="acordding" id="imgExposing" required>
+        <label for="imgExposing">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
+          futuros.</label>
+      </div>
+    </fieldset>
+    <div id="buttons">
+      <button type="submit" id="submit">Enviar</button>
+      <button type="reset" id="reset">Apagar</button>
+    </div>
+  </form>
+
+</body>
+
+</html>
