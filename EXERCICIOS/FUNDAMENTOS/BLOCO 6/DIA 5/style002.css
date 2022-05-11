@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(255, 255, 232);
+}
+
+@media screen and (max-width: 415px) {
+
+/* ----------> HEADER<-------------- */
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  /*   border: 2px solid black; */
+  }
+
+  .header-content div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .header-content  p {
+   /*  border: 2px solid red; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .header-content nav {
+ /*    border: 2px solid black; */
+    width: 100%;
+  }
+
+  .header-content nav ul{
+/*     border: 2px solid blue; */
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-around;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: dimgrey;
+    color: aliceblue;
+    margin: 10px 0;
+  }
+
+/* --------->FIM<--------- */
+
+  .aside-one {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

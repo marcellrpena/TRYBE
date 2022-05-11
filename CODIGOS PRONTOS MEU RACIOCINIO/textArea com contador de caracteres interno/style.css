@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: flex;
+  margin-top: 20px;
+  /* todos os elementos são alinhados na vertical
+  */
+  flex-direction: column;
+  /* Eu preciso que o numero de caracteres fique alinhado a direita e abaixo do meu textArea, como o eixo principal, ou seja o main é o vertical uso o align-items para alinhar tudo no eixo horizontal a esquerda, */
+  align-items: flex-end;
+  /* aqui o maior elemento é o textArea então as alterações seram com alvo no spam ou seja no numero de caracteres, e portanto como vou precisar dele alinhado no fundo do textArea uso a propriedade justify-content para alterar o main levando todos os elementos para o fim do elemento pai */
+  justify-content: end;
+  /* as alterações até aqui ainda não fizeram sentido pois o spam continua imediatamente após o textArea, ou seja ainda não estão sobrepostos, mas para reduzir o espaço do pai ao nível do maior elemento filho que é o textArea uso o width configurado para o tamanho máximo dos elementos internos*/
+  width: max-content;
+  border: 2px solid black;
+}
+
+p {
+ /* o spam foi usado pois é do tipo block e as propriedades do flex tem efeito sobre ele, dito isto eu preciso que o spam se sobreponha ao textArea, para isso uso a propriedade absolute que torna o elemento prioridade dentro do seu container pai se sobrepondo naturalmente ao textArea */
+  position: absolute;
+  padding: 0  4px;
+}
+
+textarea {
+  /* com a propriedade abaixo estou impedindo o textArea de ser redimensionado */
+  resize: none;
+}
