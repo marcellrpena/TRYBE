@@ -1,0 +1,14 @@
+{
+  "name": "dia-1",
+  "version": "1.0.0",
+  "description": "exercicios do dia 1 do Bloco 8",
+  "main": "exercicio001.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "marcell",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
