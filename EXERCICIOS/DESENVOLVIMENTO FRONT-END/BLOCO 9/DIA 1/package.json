@@ -1,0 +1,14 @@
+{
+  "name": "dia-1",
+  "version": "1.0.0",
+  "description": "exercicios do bloco 9.1",
+  "main": "exerc001.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "marcell r pena",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
